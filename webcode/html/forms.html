@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Novell Services Login</h1>
+   <form>
+    <fieldset>
+<legend>Info</legend>
+    <div>
+    <label for="fname">Username:</label>
+    &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;
+    <input type="text"  id="fname" name="Username">
+
+</div>
+  <br>
+
+<div>
+    <label for="pass">Password:</label>
+    &nbsp;&nbsp;&nbsp; &nbsp; &nbsp;&nbsp;
+    <input type="text" name="Password" id="pass">
+</div>
+<br>
+<div>
+    <label for="city">City of <br> Employment :</label>
+    &nbsp;&nbsp;
+    <input type="text" name="city" id="city">
+</div>
+<br>
+<div>
+    <label for="wserver">Web-browser:</label>
+    &nbsp;&nbsp;&nbsp; 
+    <input type="text" list="browser" name="wserver" id="wserver" placeholder="-choose your server-">
+    <datalist id="browser">
+        <option value="" > select your browser </option>
+     <option value="google chrome"></option>
+        <option value="Sfari"></option>
+        <option value="Opera"></option>
+    </datalist>
+   
+</div>
+<br>
+<br>
+
+
+
+
+<!--radio buttons start-->
+<div>Please Specify Your Role</div>
+    <br>
+
+<div>
+   
+    &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <input type="radio" name="admin" id="admin">
+<label for="role">Admin</label>
+</div>
+<br>
+
+
+
+<div>
+  
+    
+    &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp; <input type="radio" name="engr" id="engr">
+   <label for="role">Engineer</label>
+</div>
+<br>
+
+
+
+<div>
+   
+   
+    &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  <input type="radio" name="mngr" id="mngr">
+   <label for="role">Manager</label>
+</div>
+<br>
+
+
+
+<div>
+   
+    
+    &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;
+     &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  <input type="radio" name="guest" id="guest">
+   <label for="role">Guest</label>
+</div>
+<br>
+   </form>
+
+<!-- radio buttons end-->
+<!-- chekboxes start-->
+<div>
+<div>
+    <br>
+Single sign-on to the Following:
+</div>
+<br>
+<div>
+  
+    &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;
+    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  <input type="checkbox" name="sign" id="sign">
+    <label for="sign">Mail</label>
+</div>
+<br>
+<div>
+ 
+    &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;
+    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  <input type="checkbox" name="sign" id="sign">
+    <label for="sign">Payroll</label>
+</div>
+<br>
+<div>
+  
+    &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &nbsp; &nbsp;
+    &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;  <input type="checkbox" name="sign" id="sign">
+    <label for="sign">Self Service</label>
+</div>
+</div>
+<br>
+<br>
+<div>
+   
+   <textarea name="area" id="textarea" cols="30" rows="10">Please Specify Your Text</textarea>
+</div>
+<br>
+
+
+<div>
+    <button>Submit</button>
+    <button>Reset</button>
+</div>
+  
+  
+</fieldset>
+</body>
+</html>
