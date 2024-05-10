@@ -1,0 +1,173 @@
+
+
+
+/* solid border and with radius 50 percent to make a circle 
+and i dont know how to add text shadow  */
+
+.circle{
+    height: 300px;
+    width: 300px;
+    text-align: center;
+    line-height: 300px;
+    text-shadow: 2px 2px 4px rgb(red, green, blue) ;
+    text-decoration-color: green;
+    background-color: pink;
+    border: solid 6px;
+    border-color: yellow;
+    border-radius: 50%;
+    background: linear-gradient(to right, #FFDB58, #FFA500, #FF6347);
+}
+
+
+.h1{
+    display: inline-block;
+    vertical-align: middle; 
+    line-height: normal;
+}
+
+
+/* dashed border with radius 30 percent and 40 percent to make  a box  with radius 
+left and right corners and top and bottom corners  */
+.boxes1{
+
+
+height: 150px;
+width: 300px;
+border: dashed 2px;
+border-color: aqua;
+background-color: brown;
+border-radius: 30% 40%;
+background: linear-gradient(
+    to left, pink, yellow, green
+);
+}
+
+.boxes2
+{
+    height: 150px;
+    width: 300px;
+    border-color: #FFDB58;
+    border: solid 5px;
+    background-color: purple;
+    border-top-right-radius: 40%;
+    background: linear-gradient(
+        border-top-right-radius yellow pink red
+         blue 
+    );
+}
+
+
+.boxes3
+{
+    height: 150px;
+    width: 300px;
+    border:double 10px;
+    border-color: black;
+    background-color: green ;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+    background: linear-gradient(
+        border-top-right-radius yellow pink red
+         blue 
+    );
+
+}
+
+
+.boxes4
+{
+height: 150px;
+width: 300px;
+background-color: pink;
+border: groove 10px;
+border-color: brown;
+border-bottom-right-radius: 50% ;
+border-bottom-left-radius: 50px;
+background-color: aqua;
+
+}
+
+
+
+.boxes5
+{
+height: 150px;
+width: 300px;
+background-color:rgb(red, green, blue) ;
+border: ridge 10px;
+border-color: rgb(42, 42, 165);
+border-bottom-right-radius: 50% ;
+border-left: 40%;
+background-color:purple;
+
+}
+
+.boxes6
+{
+height: 150px;
+width: 300px;
+background-color:black;
+border: inset 10px;
+border-color: rgb(42, 42, 165);
+border-top: 50% ;
+border-bottom: 50px;
+background-color:yellow;
+
+
+}
+
+
+
+
+
+.boxes8
+{
+height: 150px;
+width: 300px;
+background-color:black;
+border: outset 10px;
+border-color: rgb(42, 42, 165);
+border-bottom-right-radius: 50% ;
+border-top-left-radius: 50%;
+background-color:red;
+
+
+}
+
+
+
+/* 
+.boxes7
+{
+height: 150px;
+width: 300px;
+background-color:black;
+border-style: mix dotted dash solid double ;
+border-color: rgb(42, 42, 165);
+border-bottom-right-radius: 50% ;
+border-bottom-left-radius: 50px;
+background-color:red;
+
+
+}
+*/
+
+
+.paragraph{
+
+        border: 2px dotted;
+        padding: 10px;
+        border-radius: 
+        width: 300px;
+        
+   
+}
+
+
+
+
+
+
+
+
+

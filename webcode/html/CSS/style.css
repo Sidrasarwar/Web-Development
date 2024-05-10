@@ -1,0 +1,13 @@
+
+
+
+
+.div2 {
+    height: 300px;
+    width: 300px;
+    background-color: pink;
+    border-style: solid;
+    border-color: yellow;
+    border-radius: 50%;
+    background: linear-gradient(to right, #FFDB58, #FFA500, #FF6347);
+}
