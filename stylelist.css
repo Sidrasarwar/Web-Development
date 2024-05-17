@@ -1,0 +1,62 @@
+/*div mn mojud p ko target lry ga */
+div p {
+    background-color: yellow;
+
+}
+/*p sy uper waly li ko kry ga target*/
+ .lists ul p+li{
+    background-color:pink;
+}
+/* The general sibling selector (~) selects all elements that are next siblings of a specified element */
+.lists ~ ul{
+    background-color: purple;
+font-size: medium;
+
+}
+
+
+a:link {
+    color: blue; 
+  }
+  
+  a:visited {
+    color: purple; 
+  }
+  
+  a:hover {
+    color: red; 
+  }
+  
+  a:active {
+    color: green; 
+  }
+
+  input:focus {
+    background-color: lightyellow;
+  }
+  
+
+  ul li:first-child {
+    font-weight: bold;
+  }
+  
+  ul li:last-child {
+    font-style: italic; 
+  }
+  
+ 
+  input::placeholder {
+    color: gray; 
+    font-style: italic; 
+  }
+  
+  /*odd ko style krny k liye*/
+  tr:nth-child(odd) {
+    background-color: lightgray; 
+  }
+  
+  tr:nth-child(even) {
+    background-color: lightblue; /* styling even rows */
+  }
+  
+
