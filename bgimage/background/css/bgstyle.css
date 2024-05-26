@@ -1,0 +1,66 @@
+*body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2
+   {
+    font-size: 64px;
+    font-weight: bold;
+    text-transform:uppercase;
+    color: pink;
+    text-shadow: 2px 2px 5px black;
+   }
+
+
+   section{
+    height: 100px;
+    width: 100 vw;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-image: linear-gradient(
+       rgba(0,0,0,0.3),
+       rgba(0,0,0,0.3)
+    ),
+    url("/images/nature.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment:fixed;
+ }
+
+
+ .section2{
+
+    background-image: linear-gradient(
+       rgba(0,0,0,0.3),
+       rgba(0,0,0,0.3)
+    ),
+    url("/images/nature1.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+
+ }
+
+
+
+ .section3{
+ 
+    background-image: linear-gradient(
+       rgba(0,0,0,0.3),
+       rgba(0,0,0,0.3)
+    ),
+    url("/images/nature2.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+ }
+ .section4{
+
+  background-image: linear-gradient(
+       rgba(0,0,0,0.3),
+       rgba(0,0,0,0.3)
+    ),
+    url("/images/nature3.png");
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+ }

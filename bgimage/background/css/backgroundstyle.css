@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h2
+   {
+    font-size: 64px;
+    font-weight: bold;
+    text-transform:uppercase;
+    color: pink;
+    text-shadow: 2px 2px 5px black;
+   }
+
+
+   section{
+    height: 900px;
+    width: 900 vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    background-image: linear-gradient(
+       rgba(0,0,0,0.3),
+       rgba(0,0,0,0.3)
+    ),
+      
+    url(/images/sea.png);
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-attachment:fixed;
+ }
+
+
+ .section_2{
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-image: linear-gradient(
+       rgba(0,0,0,0.3),
+       rgba(0,0,0,0.3)
+    ),
+    url("/images/forest.png");
+  
+
+ }
+ .section_3{
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+    background-image: linear-gradient(
+       rgba(0,0,0,0.3),
+       rgba(0,0,0,0.3)
+    ),
+    url("/images/nature3.png");
+  
+ }
+ .section_4{
+    background-repeat: no-repeat;
+    background-size: 100% auto;
+  background-image: linear-gradient(
+       rgba(0,0,0,0.3),
+       rgba(0,0,0,0.3)
+    ),
+    url("/images/sky.png");
+   
+ }
